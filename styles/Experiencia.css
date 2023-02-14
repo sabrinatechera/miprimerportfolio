@@ -25,6 +25,8 @@ header {
 
 .nav-container {
   width: 100%;
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: center;
   font-family: Catamaran, sans-serif;
@@ -76,8 +78,7 @@ main{
   justify-content: space-between;
   align-items: center;
   margin: 50px;
-}
-   
+} 
 
 /* aqui iba a ir uno sbotones pero lo saque  */
 /* .botones{
@@ -148,7 +149,7 @@ transform: translateY(-4px);
 .slider-container::-webkit-scrollbar {
   width: 10px;
 }
- 
+
 .slider-container::-webkit-scrollbar-thumb {
   background: #666;
   border-radius: 20px;
